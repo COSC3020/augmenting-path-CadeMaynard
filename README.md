@@ -32,3 +32,7 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## Runtime:
+
+The worst case of this algorithm is that it visits every single vertex and every single edge, meaning the $\Theta$ would be: $\Theta(|V|+|E|)$ where $|V|$ is the number of vertexes and $|E|$ is the number of edges.
